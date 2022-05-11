@@ -18,7 +18,7 @@ public class SimpleEventMulticaster implements EventMulticaster {
         if (eventListeners != null) {
             for (EventListener eventListener : eventListeners) {
                 try {
-                    Thread.sleep(10000);
+                    Thread.sleep(5000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
